@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Shaik Mohammed Hafizulla</title>
+    <style>
+        /* Page Setup for A4 Sheet */
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        /* Container for A4 dimensions */
+        .a4-sheet {
+            width: 210mm;
+            height: 297mm;
+            padding: 15mm 20mm; /* Standard margins */
+            box-sizing: border-box;
+            margin: 0 auto;
+            background: white;
+        }
+
+        /* HEADER SECTION */
+        header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #000;
+        }
+        .role-title {
+            font-size: 13px;
+            color: #444;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 4px;
+            text-transform: uppercase;
+        }
+        .contact-info {
+            margin-top: 8px;
+            font-size: 10px;
+            color: #555;
+        }
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-info span { margin: 0 8px; color: #ccc; }
+
+        /* SECTION STYLING */
+        section { margin-bottom: 12px; }
+        h2 {
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #000;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 3px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        p { margin: 0 0 5px 0; text-align: justify; }
+
+        /* EDUCATION & PROJECTS */
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+        .item-title { font-weight: 700; font-size: 11px; }
+        .item-date { font-size: 10px; color: #666; }
+        .item-subtitle { font-style: italic; font-size: 10px; color: #555; margin-bottom: 4px; }
+        
+        ul {
+            margin: 0 0 8px 18px;
+            padding: 0;
+        }
+        li { margin-bottom: 2px; }
+
+        /* SKILLS */
+        .skills-container { display: flex; flex-wrap: wrap; gap: 8px; }
+        .skill-tag {
+            background-color: #f0f0f0;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: 600;
+            border: 1px solid #ddd;
+        }
+
+        /* Ensure no extra blank pages print */
+        @media print {
+            body { -webkit-print-color-adjust: exact; }
+            .a4-sheet { box-shadow: none; border: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="a4-sheet">
+        <!-- HEADER -->
+        <header>
+            <h1>SHAIK MOHAMMED HAFIZULLA</h1>
+            <div class="role-title">Frontend Web Developer</div>
+            <div class="contact-info">
+                📍 Andhra Pradesh, India | 📞 +91 9100527275 | ✉️ <a href="mailto:hafizullas58@gmail.com">hafizullas58@gmail.com</a>
+                <span>|</span>
+                🔗 <a href="https://www.linkedin.com/in/shaik-hafizulla-web">LinkedIn</a> & <a href="https://github.com/Hafizulla777">GitHub</a>
+            </div>
+        </header>
+
+        <!-- OBJECTIVE -->
+        <section>
+            <h2>Career Objective</h2>
+            <p>Frontend-focused ECE graduate with hands-on experience in building responsive web interfaces using HTML, CSS, Flexbox, and Grid. Seeking a junior frontend or trainee role where I can contribute to real-world projects while expanding my JavaScript and UI development skills.</p>
+        </section>
+
+        <!-- SKILLS -->
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3 (Flexbox & Grid)</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React JS</span>
+                <span class="skill-tag">Node JS</span>
+                <span class="skill-tag">GitHub</span>
+                <span class="skill-tag">VS Code</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">Teamwork</span>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section>
+            <h2>Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="item-header">
+                <span class="item-title">INK & IRON – Tattoo Studio Website</span>
+                <span class="item-date">Personal Project</span>
+            </div>
+            <div class="item-subtitle">Tech Stack: HTML, CSS, JavaScript</div>
+            <ul>
+                <li>Developed a single-page website featuring a gallery, artist profiles, booking form, and admin dashboard.</li>
+                <li>Designed an anime-themed UI with intuitive navigation to improve user experience and content discoverability.</li>
+                <li><b>Live Demo:</b> <a href="https://hafizulla777.github.io/INK-IRONS/">hafizulla777.github.io/INK-IRONS/</a></li>
+            </ul>
+
+            <!-- Project 2 -->
+            <div class="item-header">
+                <span class="item-title">Responsive E-Commerce Website (EasyShop)</span>
+                <span class="item-date">Personal Project</span>
+            </div>
+            <div class="item-subtitle">Tech Stack: HTML, CSS</div>
+            <ul>
+                <li>Built a responsive shopping website using Flexbox and CSS Grid for a clean, structured layout.</li>
+                <li>Designed a mobile-friendly navigation bar and applied media queries for mobile, tablet, and desktop screens.</li>
+                <li><b>Live Demo:</b> <a href="https://hafizulla777.github.io/easyshop/">hafizulla777.github.io/easyshop/</a></li>
+            </ul>
+
+            <!-- Project 3 -->
+            <div class="item-header">
+                <span class="item-title">Tic Tac Toe Web Application</span>
+                <span class="item-date">Personal Project</span>
+            </div>
+            <div class="item-subtitle">Tech Stack: HTML, CSS, JavaScript</div>
+            <ul>
+                <li>Implemented core game logic including turn-based switching, win validation, and draw detection.</li>
+                <li>Designed an interactive interface with real-time status updates and reset functionality.</li>
+                <li><b>Live Demo:</b> <a href="https://hafizulla777.github.io/TIC-TAC-TOE/">hafizulla777.github.io/TIC-TAC-TOE/</a></li>
+            </ul>
+
+            <!-- Project 4 -->
+            <div class="item-header">
+                <span class="item-title">Coal Mine Safety Monitoring System</span>
+                <span class="item-date">Academic Project</span>
+            </div>
+            <div class="item-subtitle">Tech Stack: ZigBee, Sensors, Embedded Systems</div>
+            <ul>
+                <li>Developed an embedded system to monitor gas concentration and temperature in coal mines.</li>
+                <li>Implemented ZigBee for wireless data transmission to provide early warning alerts for miner safety.</li>
+            </ul>
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+            <h2>Education</h2>
+            
+            <div class="item-header">
+                <span class="item-title">Bachelor of Engineering (ECE)</span>
+                <span class="item-date">2021 – 2025</span>
+            </div>
+            <div class="item-subtitle">Universal College of Eng & Tech (JNTU Kakinada) | CGPA: 7.2</div>
+
+            <div class="item-header" style="margin-top: 6px;">
+                <span class="item-title">Intermediate (MPC)</span>
+                <span class="item-date">2019 – 2021</span>
+            </div>
+            <div class="item-subtitle">Bhavana Jr College | CGPA: 8.0</div>
+
+            <div class="item-header" style="margin-top: 6px;">
+                <span class="item-title">Secondary School (SSC)</span>
+                <span class="item-date">2018 – 2019</span>
+            </div>
+            <div class="item-subtitle">ZP High School | CGPA: 7.8</div>
+        </section>
+
+        <!-- INTERESTS -->
+        <section style="margin-bottom: 0;">
+            <h2>Interests</h2>
+            <table width="100%">
+                <tr>
+                    <td width="33%">• Playing Chess (StrategicThinking)</td>
+                    <td width="33%">• Practicing Coding Skills</td>
+                    <td width="33%">• Watching Anime & Fitness</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>
